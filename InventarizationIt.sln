@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3B3B3006-BFFE-40CE-9AD9-7B8DA9825FA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1563B902-7A23-4DBD-8760-25B326B16B75}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "InventarizationIt", "src\InventarizationIt\InventarizationIt.xproj", "{7EE502A0-90E6-4888-9FFA-200968862698}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EE502A0-90E6-4888-9FFA-200968862698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE502A0-90E6-4888-9FFA-200968862698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE502A0-90E6-4888-9FFA-200968862698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE502A0-90E6-4888-9FFA-200968862698}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7EE502A0-90E6-4888-9FFA-200968862698} = {3B3B3006-BFFE-40CE-9AD9-7B8DA9825FA6}
+	EndGlobalSection
+EndGlobal
